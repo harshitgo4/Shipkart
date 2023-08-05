@@ -1,0 +1,215 @@
+@media screen and (max-width:1000px){
+    footer{
+        width: 100%;
+        div{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        >div{
+            margin:5rem 0rem;
+            >h2{
+                color: black;
+                margin-bottom: 20px;
+            }
+            p{
+                font-weight: 900;
+               font-size: small;
+               margin-bottom: 20px;
+            }
+            h5{
+                font-size:small;
+                margin-bottom:20px;
+            }
+            >div{
+            margin-bottom: 10px;
+            }
+        }
+    }
+    nav{
+        >h1{
+            display: none;
+        }
+        main{
+            width: 100%;
+            a{
+                justify-content: space-between;
+                margin:0.5rem;
+            }
+        }
+    }
+    .home{
+        >main{
+           >h1{
+               font-size: 4rem;
+
+           }
+        }
+        &::before{
+            content: '';
+            background-image: none;
+        }
+    }
+    .home2{
+        img{
+            width:50%;
+            height: 40vh;
+        }
+    }
+    .home3{
+        >div{
+            width:60%;
+            height:90vh;
+            padding: 1rem;
+        >p{
+            padding: 1rem;
+            font-size: 0.7rem;
+        }
+        }
+       margin-bottom: 1rem;
+    }
+    .home4{
+        >div{
+            height: 1000px;
+        }
+      
+        padding-top:3px;
+        margin-bottom:auto;
+    }
+}
+.cimg{
+    height:40vh;
+}
+.contacts{
+    >main{
+        height: 60vh;
+        padding: 0%;
+        margin:0px;
+        width:100%;
+        border-radius: 5px;
+        >h1{
+            margin-top: 1rem;
+        }
+        >form{
+            margin:0px;
+            margin-top: 1rem;
+            padding: 2px;
+            >button{
+                margin-top:0px;   
+                margin-left: 80px;
+                height:2rem;
+                padding: 0px;
+            }
+        }
+    }
+  
+}
+@media screen and (max-width:700px){
+    footer{
+        width: 100%;
+        div{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        >div{
+            margin:5rem 0rem;
+            >h2{
+                color: black;
+                margin-bottom: 20px;
+            }
+            p{
+                font-weight: 900;
+               font-size: small;
+               margin-bottom: 20px;
+            }
+            h5{
+                font-size:small;
+                margin-bottom:20px;
+            }
+            >div{
+            margin-bottom: 10px;
+            }
+        }
+    }
+    nav{
+        >h1{
+            display: none;
+        }
+        main{
+            width: 100%;
+            a{
+                justify-content: space-between;
+                margin:0.5rem;
+            }
+        }
+    }
+    .home{
+        >main{
+           >h1{
+               font-size: 4rem;
+
+           }
+        }
+        &::before{
+            content: '';
+            background-image: none;
+        }
+    }
+    .home2{
+        img{
+            width:50%;
+            height: 40vh;
+        }
+    }
+    .home3{
+        >div{
+            width:60%;
+            height:90vh;
+            padding: 1rem;
+        >p{
+            padding: 1rem;
+            font-size: 0.7rem;
+        }
+        }
+       margin-bottom: 1rem;
+    }
+    .home4{
+        >div{
+        height:120vh;
+
+       
+        }
+        
+        padding-top:3px;
+        margin-bottom: 10pz;
+        
+    }
+}
+.cimg{
+    height:40vh;
+}
+.contacts{
+    >main{
+        height: 60vh;
+        padding: 0%;
+        margin:0px;
+        width:100%;
+        border-radius: 5px;
+        >h1{
+            margin-top: 1rem;
+        }
+        >form{
+            margin:0px;
+            margin-top: 1rem;
+            padding: 2px;
+            >button{
+                margin-top:0px;   
+                margin-left: 80px;
+                height:2rem;
+                padding: 0px;
+            }
+        }
+    }
+  
+}
