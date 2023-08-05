@@ -76,13 +76,13 @@
         padding-top:3px;
         margin-bottom:auto;
     }
-}
-.cimg{
-    height:40vh;
+    .cimg{
+        height:40vh;
+    }
 }
 .contacts{
     >main{
-        height: 60vh;
+        height: 80vh;
         padding: 0%;
         margin:0px;
         width:100%;
@@ -186,9 +186,6 @@
         
     }
 }
-.cimg{
-    height:40vh;
-}
 .contacts{
     >main{
         height: 60vh;
@@ -211,5 +208,7 @@
             }
         }
     }
-  
+    .cimg{
+        height:40vh;
+    }
 }
